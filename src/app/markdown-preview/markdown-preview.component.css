@@ -1,0 +1,10 @@
+.output-container{
+  overflow-x: auto;
+  overflow-y: auto;
+  box-sizing: border-box;
+  height: 70vh;
+  width: 100%;
+  border: 1px solid #002240;
+  background-color: #FFF;
+  padding: 5px;
+}

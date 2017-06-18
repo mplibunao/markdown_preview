@@ -1,0 +1,7 @@
+<div class="col-sm-5">
+  <textarea #inputArea
+            class="input-container"
+            [(ngModel)]="inputText"
+            (keyup)="updateInput()"></textarea>
+  <button type="button" class="btn btn-default" (click)="clearInput()">Clear</button>
+</div>
